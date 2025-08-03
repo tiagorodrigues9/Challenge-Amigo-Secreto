@@ -31,7 +31,7 @@ function listarAmigosSecretos() {
 
 function sortearAmigo() {
     if (listaAmigoSecreto.length === 0) {
-        alert('Adicione amigos antes de sortear!');
+        alert('A lista está vazia!');
     } else {
         const indiceAleatorio = Math.floor(Math.random() * listaAmigoSecreto.length);
         const amigoSorteado = listaAmigoSecreto[indiceAleatorio];
